@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {        
+    background-color: #f2f2f2;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: sticky;
+    bottom: 0px;
+}
+
+header div a:hover {
+    color: #555;
+}
+
+#logo {
+    max-width: 100px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: black;
+    font-size: 2.4em;
+}
+
+
+
+.header2 a {
+  
+    color: black;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 1.7em;
+}
+
+.header1{
+    display: inline-block;
+    margin-right: 1000px;
+}
+
+.header2{
+    display: inline-block;;
+}

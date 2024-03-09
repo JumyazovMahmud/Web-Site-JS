@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Quiz Test</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    }
+
+header {        
+    background-color: #f2f2f2;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: sticky;
+}
+
+header div a:hover {
+    color: #555;
+}
+
+#logo {
+    max-width: 100px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: black;
+    font-size: 2.4em;
+}
+
+
+
+.header2 a {
+
+    color: black;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 1.7em;
+}
+
+.header1{
+    display: inline-block;
+    margin-right: 1000px;
+}
+
+.header2{
+    display: inline-block;;
+}
+#bigContainer{
+    
+    background-image: url('images/background.png');
+    width: 100%;
+    height: 600px;
+}
+
+#options{
+    color: #f2f2f2;
+    font-size: 2.2em;
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    
+}
+
+#question{
+    color: #f2f2f2;
+    font-size: 2.8em;
+    width: fit-content;
+    height: fit-content;
+    display: block;
+}
+
+.quiz{
+    margin: auto;
+    position: relative;
+    top:90px;
+    width: fit-content;
+    height: fit-content;
+}
+
+ul li {
+    margin-top: 15px;
+}
+
+#nextbtn{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: #f2f2f2;
+}
+
+#check{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: #f2f2f2;
+}
+
+#back{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: #f2f2f2;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header1">
+            <img src="images/black_logo.png" alt="Logo" id="logo">
+
+            <h1 id="title">TriHop</h1>
+        </div>
+        <div class="header2">
+            <a href="home.html">Asosiy</a>
+        </div>
+    </header>
+
+    <div id="bigContainer">
+        <div class="quiz">
+            <div id="question">Berilgan uchburchakning ikkita burchagi 40 va 50 gradus bo'lsa , uchinchi burchagini toping</div>
+            <h1 id="hidden" style="color: #f2f2f2; font-size: 3.1em;"></h1>
+            <ul id="options">
+                <li id="A" onclick="checkAnswer('A')">A. 90</li>
+                <li id="B" onclick="checkAnswer('B')">B. 110</li>
+                <li id="C" onclick="checkAnswer('C')">C. 140</li>
+                <li id="D" onclick="checkAnswer('D')">D. 89</li>
+            </ul>
+
+            <button onclick="goToNextQuestion()" id="nextbtn">Next Question</button> 
+            <button onclick="back()" hidden id="back">Back</button>
+            <button onclick="check()" id="check" >Check</button>
+
+        </div>
+
+       
+    
+       
+    </div>
+
+   
+    <script src="app.js"></script>
+   
+</body>
+</html>
