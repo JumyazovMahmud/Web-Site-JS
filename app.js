@@ -47,11 +47,11 @@ function checkAnswer(selectedOption) {
 function goToNextQuestion() {
     d1 = Number(d1) + Number(2);
 
-    arr2 = ["Berilga uchburchakning tomonlari 5 , 7 , 8 sm bo'lib , peremetrini aniqlang" , "A. 21 sm" , "B. 19 sm" , "C. 20 sm" , "D. 24 sm"]
-    arr3 = ["Uchburchakning 60 gradusli uchidan bissektrissa o'tkazildi, bissektrissa burchakni nechi gradusga bo'ldi?" , "A. 30" , "B. 40" , "C. 50" , "D. 60"]
-    arr4 = ["To'gri burchakli uchburchakning yuzasi 12 sm kv bo'lsa, uning gipotenuzaga tushgan balandligi 4 sm . Gipotenuzani toping" , "A. 5 sm" , "B. 7 sm" , "C. 8 sm" , "D. 6 sm"]
-    arr5 = ["Teng yonli uchburchakning uchidan balandlik tushdi. Tushgan burchakni anqilang" , "A. 89" , "B. 91" , "C. 93" , "D. 90"]
-    arr6 = ["Muntazam uchburchaking barcha burchaklarni toping" , "A. 50 , 40 , 50" , "B. 60 , 60 , 60" , "C. 60 , 60 , 30" , "D. 60 , 46, 56"]
+    arr2 = ["2. Berilga uchburchakning tomonlari 5 , 7 , 8 sm bo'lib , peremetrini aniqlang" , "A. 21 sm" , "B. 19 sm" , "C. 20 sm" , "D. 24 sm"]
+    arr3 = ["3. Uchburchakning 60 gradusli uchidan bissektrissa o'tkazildi, bissektrissa burchakni nechi gradusga bo'ldi?" , "A. 30" , "B. 40" , "C. 50" , "D. 60"]
+    arr4 = ["4. To'gri burchakli uchburchakning yuzasi 12 sm kv bo'lsa, uning gipotenuzaga tushgan balandligi 4 sm . Gipotenuzani toping" , "A. 5 sm" , "B. 7 sm" , "C. 8 sm" , "D. 6 sm"]
+    arr5 = ["5. Teng yonli uchburchakning uchidan balandlik tushdi. Tushgan burchakni anqilang" , "A. 89" , "B. 91" , "C. 93" , "D. 90"]
+    arr6 = ["6. Muntazam uchburchaking barcha burchaklarni toping" , "A. 50 , 40 , 50" , "B. 60 , 60 , 60" , "C. 60 , 60 , 30" , "D. 60 , 46, 56"]
 
     switch(d1){
         case 2:
