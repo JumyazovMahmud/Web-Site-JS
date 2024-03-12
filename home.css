@@ -15,7 +15,8 @@ header {
 }
 
 header div a:hover {
-    color: #555;
+    color: #7e7b7b;
+    font-weight: bold;
 }
 
 #logo {
