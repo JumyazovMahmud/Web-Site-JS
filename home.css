@@ -69,12 +69,13 @@ header div a:hover {
     background-color: #f2f2f2;
     padding: 20px 20px 20px 20px;
     font-size: 1.1em;
-    font-weight: light;
+    font-weight: normal;
     border-color: white;
     position: relative;
     top: 150px;
     margin: auto;
 }
+
 
 .miniTitle{
     position: relative;
