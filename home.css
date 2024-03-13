@@ -16,7 +16,9 @@ header {
 
 header div a:hover {
     color: #7e7b7b;
-    font-weight: bold;
+   
+    
+   
 }
 
 #logo {
@@ -36,13 +38,23 @@ header div a:hover {
 
 
 
-.header2 a {
+header div a {
   
     color: black;
     text-decoration: none;
     padding: 0 15px;
     font-size: 1.7em;
+
 }
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    opacity: 80%;
+}
+
+
 
 .header1{
     display: inline-block;
@@ -56,7 +68,7 @@ header div a:hover {
 
 .bigContainer{
     position: relative;
-    bottom: 45px;
+    bottom: 44px;
     background-image: url('images/background.png');
     width: 100%;
     height: 600px;
